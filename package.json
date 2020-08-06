@@ -2,7 +2,8 @@
   "name": "calculator-web-component",
   "version": "1.0.0",
   "description": "Calculator web component",
-  "main": "index.js",
+  "main": "dist/calculator-web-component.js",
+  "module": "dist/calculator-web-component.esm.js",
   "scripts": {
     "clean": "rimraf dist/*",
     "build": "npm run clean && run-p build:*",
